@@ -5,8 +5,8 @@ let listaTarefas = [
 ]
 
 function limparCampos() {
-  document.getElementById("tarefa").value = " "
-  document.getElementById("tempo").value = " "
+  document.getElementById("tarefa").value = ""
+  document.getElementById("tempo").value = ""
 }
 
 function addTarefa(tarefa) {
